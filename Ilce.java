@@ -20,6 +20,9 @@ public class Ilce {
     @SerializedName("Durum")
     @Expose
     private String durum;
+    @SerializedName("Aciklama")
+    @Expose
+    private String aciklama;
 
     public String getIlceAdi() {
         return ilceAdi;
@@ -51,6 +54,14 @@ public class Ilce {
 
     public void setDurum(String durum) {
         this.durum = durum;
+    }
+
+    public String getAciklama() {
+        return aciklama;
+    }
+
+    public void setAciklama(String aciklama) {
+        this.aciklama = aciklama;
     }
 
 }
